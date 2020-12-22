@@ -3,13 +3,11 @@
 }
 
 a {
-  color: #000000 !important;
   text-decoration: none;
 }
 
 a:hover {
-  color: #000000;
-  text-decoration: none;
+  color: white !important;
 }
 
 .diferente a {
@@ -24,7 +22,7 @@ a:hover {
 }
 
 .nav-text :hover {
-  color: #3eb8e4 !important;
+  color: #08AA9C !important;
 }
 
 .section-piso {
@@ -36,7 +34,7 @@ a:hover {
 }
 
 .text-index {
-  color: #3eb8e4;
+  color: #08AA9C;
 }
 @media screen and (max-width: 750px) {
   .text-index {
@@ -45,13 +43,13 @@ a:hover {
 }
 
 .text-electric {
-  color: #0f1416;
+  color: #14B9AB;
   font-size: 2.8125em;
   display: flex;
 }
 
 .txt-val {
-  color: #3eb8e4;
+  color: #08AA9C;
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -72,29 +70,6 @@ a:hover {
     margin-bottom: -10ch;
   }
 }
-.btn-poly {
-  color: #fff !important;
-}
-
-.btn-card {
-  font-weight: bold;
-}
-
-.btn-black {
-  background-color: #161616;
-}
-
-.btn-black:hover {
-  background-color: #3eb8e4;
-}
-
-.btn-blue {
-  background-color: #3eb8e4;
-}
-
-.btn-blue:hover {
-  background-color: #161616;
-}
 
 .service-box {
   opacity: 0.5;
@@ -114,7 +89,7 @@ hr.light {
   border-color: #fff;
 }
 .hr-hist {
-  background-color: #3eb8e4;
+  background-color: #08AA9C;
   height: 1px;
   border: 0;
   max-width: 150000px !important;
@@ -169,6 +144,21 @@ header.masthead p {
   }
 }
 
+section#orcamento h2 {
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #004e62;
+  margin: 0 0 20px 0;
+}
+
+@media (max-width: 768px) {
+  section#orcamento h2 {
+    font-size: 24px;
+  }
+}
+
 .orcamento-wrapper {
   margin: 0 auto;
   max-width: 1300px;
@@ -210,8 +200,48 @@ header.masthead p {
   }
 }
 
+.services h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #004e62;
+}
+
+.services img {
+  width: 150px;
+  height: 150px;
+}
+
+.txt-condo {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 60px 0;
+}
+
+.btn {
+  padding: 10px 35px;
+  margin: 34px auto;
+  background: #004e62;
+  border-radius: 125px;
+  color: #fff;
+}
+
+.medium-price {
+  font-size: 18px;
+}
+
 .arrow {
-  color: #3eb8e4;
+  color: #08AA9C;
+}
+
+.card {
+  margin: 0 0 60px 0;
+}
+
+.card-block {
+  padding: 30px 5px;
 }
 
 .card-hover {
@@ -235,7 +265,7 @@ header.masthead p {
 }
 
 .jumbotron:hover {
-  background: #3eb8e4;
+  background: #08AA9C;
   opacity: initial;
 }
 .animated1 {
@@ -258,4 +288,11 @@ header.masthead p {
   border-radius: 50% !important;
   width: 200px;
   height: 200px;
+}
+
+
+.img-work-us {
+  height: 55vh;
+  width: 100%;
+  object-fit: cover;
 }
