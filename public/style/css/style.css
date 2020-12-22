@@ -1,59 +1,96 @@
-
-.body{
-font-family: 'Slabo 27px', serif;
-font-family: 'Roboto', sans-serif;
+.body {
+  font-family: "Mada", sans-serif;
 }
 
-a{
+a {
   color: #000000 !important;
-  text-decoration: none;       
+  text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #000000;
-  text-decoration:none;
+  text-decoration: none;
 }
 
-.diferente a{
-    color:white !important;
+.diferente a {
+  color: white !important;
 }
-.verdezap{
+.verdezap {
   color: #25d366;
 }
 .nav-text {
   color: black !important;
-  font-weight:500 !important;
+  font-weight: 500 !important;
 }
 
-.nav-text :hover{
-  color:#3eb8e4 !important;
+.text-pintura {
+  font: bold !important;
+}
+
+.texto-verde {
+  color: #004e62;
+}
+
+.nav-text :hover {
+  color: #004e62 !important;
+}
+.botao-faca {
+  font: 14px "Mada", sans-serif;
+  text-transform: uppercase;
+  color: #fff !important;
+  border: 1px solid #004e62;
+  border-radius: 1525px !important;
+  background-color: #004e62 !important;
+  padding: 10px 35px;
+  margin-top: 10% !important;
 }
 
 .section-piso {
   background-color: #0f1416;
+  padding: 2%;
 }
 
-.text-piso{
-  color:#5E5D5D;
+.text-titulo {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text-index{
-color: #3eb8e4;
+.text-piso {
+  color: #5e5d5d;
+  text-transform: none;
+  margin-bottom: 15%;
+}
+
+.botao-orcamento {
+  font: 14px "Mada", sans-serif;
+  text-transform: uppercase;
+  color: #fff !important;
+  border: 1px solid #004e62;
+  border-radius: 1525px !important;
+  background-color: #004e62 !important;
+  padding: 10px 35px;
+}
+
+.text-index {
+  color: #3eb8e4;
 }
 @media screen and (max-width: 750px) {
   .text-index {
-    color:#bebebe
+    color: #bebebe;
   }
 }
 
-.text-electric{
+.text-electric {
   color: #0f1416;
   font-size: 2.8125em;
   display: flex;
 }
 
-.txt-val{
-color: #3eb8e4;
+.txt-val {
+  color: #3eb8e4;
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -63,49 +100,48 @@ color: #3eb8e4;
   }
 }
 
-.navop{
+.navop {
   background-color: white;
-  opacity: 0.75; 
+  opacity: 0.75;
   position: relative;
   width: 100%;
 }
-@media (min-width:464px){
-  .no-margin{
+@media (min-width: 464px) {
+  .no-margin {
     margin-bottom: -10ch;
   }
 }
-.btn-poly{
+.btn-poly {
   color: #fff !important;
 }
 
-.btn-card{
+.btn-card {
   font-weight: bold;
 }
 
-.btn-black{
+.btn-black {
   background-color: #161616;
-  
 }
 
-.btn-black:hover{
+.btn-black:hover {
   background-color: #3eb8e4;
 }
 
-.btn-blue{
+.btn-blue {
   background-color: #3eb8e4;
 }
 
-.btn-blue:hover{
+.btn-blue:hover {
   background-color: #161616;
 }
 
 .service-box {
-  opacity: 0.50;
+  opacity: 0.5;
   background-color: white;
 }
 
-.service-box:hover{
-  opacity:1;
+.service-box:hover {
+  opacity: 1;
 }
 
 hr {
@@ -116,22 +152,20 @@ hr {
 hr.light {
   border-color: #fff;
 }
-.hr-hist{
-  background-color:#3eb8e4; 
+.hr-hist {
+  background-color: #3eb8e4;
   height: 1px;
-  border: 0; 
+  border: 0;
   max-width: 150000px !important;
- 
- }
- 
+}
+
 .parallax {
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px); 
-  
+  padding-bottom: calc(10rem - 56px);
 }
 @media screen and (max-width: 1000px) {
   .parallax {
@@ -174,64 +208,64 @@ header.masthead p {
   }
 }
 
-.arrow{
+.arrow {
   color: #3eb8e4;
 }
 
-.card-hover{
+.card-hover {
   border-style: solid !important;
   border-width: 2px;
   border-color: #000000 !important;
 }
 
-.card-hover:hover{
+.card-hover:hover {
   border-color: #3eb8e4 !important;
   transition: all 0.5s ease;
 }
-.cond-hover{
-  background:rgba(255, 255, 255, 0.692);
+.cond-hover {
+  background: rgba(255, 255, 255, 0.692);
 }
 
-.cond-hover:hover{
+.cond-hover:hover {
   background: rgba(255, 255, 255, 0.856) !important;
   transition: all 0.5s ease;
 }
-.row-card{
+.row-card {
   background-color: #fff;
 }
 
-.card-img-h{
+.card-img-h {
   height: 200px;
   display: flex;
 }
 
-.footer{
+.footer {
   background-color: #161616;
   color: #fff;
 }
 
-.jumbotron:hover{
+.jumbotron:hover {
   background: #3eb8e4;
   opacity: initial;
 }
-.animated1{
+.animated1 {
   animation-delay: 0.25s;
 }
 
 /*contact page forms*/
-   
-.alert{
+
+.alert {
   text-align: center;
-  padding:10px;
-  background:#79c879;
-  color:#fff;
-  margin-bottom:10px;
-  display:none;
+  padding: 10px;
+  background: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
   width: 100%;
 }
 
-.mob-img{
- border-radius: 50% !important;
- width: 200px;
- height: 200px;
+.mob-img {
+  border-radius: 50% !important;
+  width: 200px;
+  height: 200px;
 }
