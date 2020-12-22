@@ -7,7 +7,7 @@ a {
 }
 
 a:hover {
-  color: white !important;
+  color: unset !important;
 }
 
 .diferente a {
