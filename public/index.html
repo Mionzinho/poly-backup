@@ -29,11 +29,12 @@
   <script src="/__/firebase/7.6.1/firebase-analytics.js"></script>
   <!-- Initialize Firebase -->
   <script src="/__/firebase/init.js"></script>
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navop navbar navbar-expand-lg fixed-top navbar navbar-light bg-gradient nav-text"
     id="mainNav">
     <div class="container">
-      <a class="" href="#page-top"><img src="img/logo.png"></a>
+      <a class="" href="#page-top"><img src="img/logo.png" width="220px"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,41 +56,37 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger mx-4 nav-text" href="trabalhe-conosco.html">Trabalhe Conosco</a>
           </li>
-          <li class="nav-item">
-            <div style="font-size: 0.5rem;">
-              <a href="https://www.instagram.com/poly_servicos/"><i
-                  class="fab fa-instagram fa-3x  mb-3 sr-icon-1 mx-2 mt-2 ico-color" style="color:#08AA9C"></i> </a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <div style="font-size: 0.5rem;">
-              <a href="https://www.facebook.com/polyservicos/"><i
-                  class="fab fa-facebook fa-3x  mb-3 mx-2 sr-icon-1 mt-2 icon-silver" style="color: #08AA9C"></i> </a>
-            </div>
-          </li>
+          <div class="icon-wrapper">
+            <li class="nav-item last-items">
+              <div>
+                <a href="https://www.instagram.com/poly_servicos/"><i
+                    class="fab fa-instagram fa-3x  mb-3 sr-icon-1 mx-2 mt-2 ico-color" style="color:#08AA9C"></i> </a>
+              </div>
+            </li>
+            <li class="nav-item last-items">
+              <div>
+                <a href="https://www.facebook.com/polyservicos/"><i
+                    class="fab fa-facebook fa-3x  mb-3 mx-2 sr-icon-1 mt-2 icon-silver" style="color: #08AA9C"></i> </a>
+              </div>
+            </li>
+          </div>
         </ul>
       </div>
     </div>
   </nav>
-  <header class="masthead mastimg text-left text-white d-flex">
-
-  </header>
-  <style>
-    header.masthead {
-      padding-top: 12rem;
-      padding-bottom: calc(5rem - 56px);
-      background-size: cover;
-    }
-
-    header.mastimg {
-      position: relative;
-      background-image: url("img/home.jpg") !important;
-      margin-top: 2%;
-    }
-  </style>
+  <section class="home">
+    <div>
+      <h2>
+        SUA NOVA OPÇÃO<br />
+        <strong>EM SERVIÇOS</strong>
+      </h2>
+      <h3>
+        PRECISANDO DE UMA REFORMA ?
+      </h3>
+    </div>
+  </section>
 
   <section id="orcamento">
-
     <h2>Faça um orçamento via whatsapp</h2>
     <div class="orcamento-wrapper">
       <div class="orcamento-row">
@@ -146,22 +143,22 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-5 ml-4 mt-5 mb-5">
-          <h1 class="font-weight-bold mb-2 text-center">Pintura</h1>
-          <p class="text-faded ">Pintura de apartamento, fachada, casa, escitorio e condominio:</p>
-          <ul class="list-group" style="list-style-type:none">
-            <li><i class="fas fa-arrow-right mr-2 arrow"></i>Textura</li>
-            <li><i class="fas fa-arrow-right mr-2 arrow mt-2"></i>grafiato</li>
-            <li><i class="fas fa-arrow-right mr-2 arrow mt-2"></i>aplicação de massa</li>
+          <h1 class="title-paint">Pintura</h1>
+          <p class="text-paint">Pintura de apartamento, fachada,<strong> casa</strong>, escitorio e condominio:</p>
+          <ul class="list-paint" style="list-style-type:none">
+            <li><img src="img/icons/padrao.png" alt="icone-poly" />Textura</li>
+            <li><img src="img/icons/padrao.png" alt="icone-poly" />grafiato</li>
+            <li><img src="img/icons/padrao.png" alt="icone-poly" />aplicação de massa</li>
           </ul>
           <a href="http://api.whatsapp.com/send?1=pt_BR&phone=551198582-3406" class="btn" target="_blank">Faça um
-            orçamento</a>
+            orçamento digital</a>
         </div>
       </div>
     </div>
     <div class="container-fluid section-piso mt-5 w-100">
       <div class="row">
         <div class="col-12 my-5">
-          <h1 class="font-weight-bold text-center btn-poly">Pisos</h1>
+          <h1 class="text-floor">Pisos</h1>
         </div>
       </div>
       <div class="row">
@@ -182,7 +179,7 @@
               </a>
             </div>
             <div class="card-body">
-              <p class="card-text text-piso">Instalação de piso porcelanato de todos os tipos e tamanhos. Instalação de
+              <p class="text-piso">Instalação de piso porcelanato de todos os tipos e tamanhos. Instalação de
                 laminados e vinílicos.</p>
               <a d href=" http://api.whatsapp.com/send?1=pt_BR&phone=551198582-3406" class="btn btn-lg"
                 target="_blank">Orçamento</a>
