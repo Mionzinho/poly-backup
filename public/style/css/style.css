@@ -23,6 +23,10 @@ a:hover {
   font-weight: 500 !important;
 }
 
+header .texto-principal {
+  color: #14b9ab !important;
+}
+
 .text-pintura {
   font: bold !important;
 }
